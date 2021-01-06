@@ -1,0 +1,8 @@
+#\u9879\u76EE\u540D\u79F0
+spring:
+  application:
+    name: javaBaseInternationfomrs
+
+server:
+  port: 8087
+
