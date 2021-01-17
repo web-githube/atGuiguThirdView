@@ -16,5 +16,8 @@ public class ClientSpringcontainer {
 
         A a=context.getBean("a",A.class);
         B b=context.getBean("b",B.class);
+
+
+        System.out.println("hello mac");
     }
 }
