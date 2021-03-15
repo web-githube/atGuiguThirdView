@@ -3,6 +3,8 @@ package com.atguowang.thirdinterview.spring.aroudyilai.depencyInjection.springIO
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.*;
+
 
 /**
  * @author maweibo
@@ -14,11 +16,13 @@ public class ClientSpringcontainer {
 
         ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
 
+
         A a=context.getBean("a",A.class);
         B b=context.getBean("b",B.class);
+        System.out.println(a);
 
 
-        System.out.println("hello mac");
+
 
     }
 }
