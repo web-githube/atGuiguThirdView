@@ -18,7 +18,7 @@ public class A {
         this.b = b;
     }
 
-    A(){
+    public A(){
         System.out.println(" A -created- success");
     }
 

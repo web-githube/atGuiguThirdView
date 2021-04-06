@@ -5,7 +5,7 @@ import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
- * @author webstart
+ * @author lucas
  * @time 2020/11/9/10:11
  * @description  aspect 面向切面编程
  **/
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyAOPAspect {
 
-    @Before("execution(public  int com.atguowang.thirdinterview.spring.service.impl.ClaNumberImpl.*(..))")
+    @Before(value="execution(public  int com.atguowang.thirdinterview.spring.service.impl.ClaNumberImpl.add(int,int))")
     public void before(){
       //打印
        System.out.println("@before是前置通知myaspect");
