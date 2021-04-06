@@ -16,7 +16,7 @@ public class Code {
         //set注入
         b.setA(a);
         a.setB(b);
-        System.out.println();
+        System.out.println(11);
     }
 
 
